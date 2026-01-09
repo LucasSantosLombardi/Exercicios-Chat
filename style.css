@@ -45,7 +45,6 @@ main {
 
 #texto1{
     height: 600px;
-    display: block;
     width: 100%;
     display: flex;
     justify-content: center;
