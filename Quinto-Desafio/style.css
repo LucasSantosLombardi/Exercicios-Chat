@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.jacques{
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Jacques Francois Shadow";
+}
+
+header h1 {
+      text-align: center;
+      padding-top: 20px;
+      text-decoration: underline;
+}
+header {
+    background-color: #737373;
+    box-shadow: 0px 0px 3px black;
+}
+
+nav {
+    
+    padding:20px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+}
+main {
+    background-color: #BFBFBF;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagens {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+.fotos {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+    
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.fotos:hover {
+    zoom: 1.01;
+}
+
+footer {
+    background-color: #737373;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #252625;
+    
+}
+
+@media (max-width:768px) {
+     .imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fotos {
+        width: 100%;
+    }
+}
