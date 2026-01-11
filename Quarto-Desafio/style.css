@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.italianno{
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+body {
+    font-family: "Italianno", cursive;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: #E6BE45;
+
+}
+main {
+    background-color: #FFD34D;
+    max-width: 700px;
+    min-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 5px black;
+}
+header {
+    background-color: #BF9E3A;
+    box-shadow: 0px 0px 5px black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+
+#lista a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#lista a:hover {
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: underline;
+    color: black;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-shadow: 0px 1px 2px black;
+}
+
+.comidas {
+    margin-left: 30px;
+    list-style: none;
+    line-height: 2;
+}
+
+table {
+    border-collapse: collapse; 
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 20px 35px;
+    box-shadow: 0px 1px 2px black;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    padding: 20px;
+}
+
+#Contato a {
+    text-decoration: none;
+    color: black;
+}
+
+#Contato a:hover {
+    text-decoration: underline;
+}
